@@ -1,0 +1,143 @@
+# materials_ui_ux.py - База данных материалов по UI/UX дизайну
+
+UI_UX_MATERIALS = {
+    "beginner": {
+        "welcome": {
+            "title": "UI/UX дизайн для начинающих: с чего начать?",
+            "description": "Первые шаги в профессии дизайнера",
+            "materials": [
+                {"type": "видео", "name": "Кто такой UX UI-дизайнер за 5 минут Плюсы и минусы", "link": "https://www.youtube.com/watch?v=KkhjECQorUg", "platform": "YouTube", "duration": "5 мин"},
+                {"type": "статья", "name": "Дизайн который продаёт всё что нужно знать про UX UI", "link": "https://habr.com/ru/articles/924114/", "platform": "Habr", "duration": "15 мин"},
+                {"type": "статья", "name": "Wireframe vs mockup vs prototype в чем разница", "link": "https://habr.com/ru/articles/815337/", "platform": "Habr", "duration": "10 мин"}
+            ]
+        },
+        "step_1": {
+            "title": "Figma с нуля",
+            "description": "Освоение главного инструмента дизайнера",
+            "materials": [
+                {"type": "видео", "name": "Figma с нуля за 1 час Бесплатный курс уроки веб дизайна", "link": "https://www.youtube.com/watch?v=4-NUlgWbncs", "platform": "YouTube", "duration": "60 мин"},
+                {"type": "видео", "name": "Мини-курс Figma за 29 минут с нуля 2024", "link": "https://www.youtube.com/watch?v=vtwtLqMr1wI", "platform": "YouTube", "duration": "29 мин"},
+                {"type": "видео", "name": "Курс по UI UX-дизайну урок 1 основы Figma Ten Targets", "link": "https://www.youtube.com/watch?v=RLuqa3VZ0uw", "platform": "YouTube", "duration": "35 мин"},
+                {"type": "видео", "name": "Изучение Figma с нуля уроки от Гоши Дударя", "link": "https://www.youtube.com/watch?v=kkThgsC1tnk", "platform": "YouTube", "duration": "5 часов"}
+            ]
+        },
+        "step_2": {
+            "title": "Основы UI/UX и теория цвета",
+            "description": "Базовые принципы дизайна интерфейсов",
+            "materials": [
+                {"type": "видео", "name": "Основы UI UX дизайна этапы создания дизайна сайта инструменты", "link": "https://www.youtube.com/watch?v=0M6deyfBKvY", "platform": "YouTube", "duration": "40 мин"},
+                {"type": "видео", "name": "Теория цвета в дизайне за 20 минут урок для начинающих", "link": "https://www.youtube.com/watch?v=BibnjDCYuR8", "platform": "YouTube", "duration": "20 мин"},
+                {"type": "видео", "name": "UX UI Design Введение Урок 1", "link": "https://www.youtube.com/watch?v=JJLvj1AnGkU", "platform": "YouTube", "duration": "25 мин"},
+                {"type": "статья", "name": "Руководство по цвету в UX UI-дизайне", "link": "https://habr.com/ru/companies/alconost/articles/565438/", "platform": "Habr", "duration": "12 мин"}
+            ]
+        },
+        "step_3": {
+            "title": "Типографика",
+            "description": "Основы типографики для веб-дизайна",
+            "materials": [
+                {"type": "видео", "name": "Основы типографики в веб-дизайне базовые знания термины виды шрифтов", "link": "https://www.youtube.com/watch?v=xiDVyfbBl3Y", "platform": "YouTube", "duration": "25 мин"},
+                {"type": "видео", "name": "Типографика за 40 минут это изменит твой дизайн навсегда", "link": "https://www.youtube.com/watch?v=91xdsXtGfpU", "platform": "YouTube", "duration": "40 мин"}
+            ]
+        }
+    },
+    "advanced": {
+        "welcome": {
+            "title": "Продвинутые навыки дизайнера",
+            "description": "Прототипирование и UX-исследования",
+            "materials": [
+                {"type": "статья", "name": "Идеальный процесс работы UX UI Дизайнера", "link": "https://habr.com/ru/articles/661313/", "platform": "Habr", "duration": "10 мин"},
+                {"type": "статья", "name": "Разбор UI UX на примере прототипа в Figma основные принципы", "link": "https://habr.com/ru/articles/508028/", "platform": "Habr", "duration": "12 мин"}
+            ]
+        },
+        "step_1": {
+            "title": "Прототипирование в Figma",
+            "description": "Создание кликабельных прототипов",
+            "materials": [
+                {"type": "видео", "name": "Прототипирование в Figma Курс UX UI Дизайнер Бесплатный курс", "link": "https://www.youtube.com/watch?v=XtSGYbnJD0M", "platform": "YouTube", "duration": "45 мин"},
+                {"type": "видео", "name": "Прототипирование в Figma Variants бесплатный курс веб дизайна", "link": "https://www.youtube.com/watch?v=_FY1gB4VHzU", "platform": "YouTube", "duration": "50 мин"},
+                {"type": "статья", "name": "Wireframes в разработке особенности и преимущества", "link": "https://habr.com/ru/articles/690598/", "platform": "Habr", "duration": "10 мин"}
+            ]
+        },
+        "step_2": {
+            "title": "UX-исследования и юзабилити",
+            "description": "Изучение пользователей и тестирование",
+            "materials": [
+                {"type": "видео", "name": "Как проводить UX-тесты Мой опыт", "link": "https://www.youtube.com/watch?v=4b-ulwnhZXo", "platform": "YouTube", "duration": "30 мин"},
+                {"type": "видео", "name": "Юзабилити-тест Урок 1", "link": "https://www.youtube.com/watch?v=sSKemcPqRok", "platform": "YouTube", "duration": "20 мин"},
+                {"type": "видео", "name": "UX Исследования для дизайнеров", "link": "https://www.youtube.com/watch?v=maePy1m5hmk", "platform": "YouTube", "duration": "55 мин"}
+            ]
+        },
+        "step_3": {
+            "title": "Дизайн-системы в Figma",
+            "description": "Масштабируемые дизайн-системы",
+            "materials": [
+                {"type": "видео", "name": "Дизайн-система в Figma Часть 1 Основы тексты типографика", "link": "https://www.youtube.com/watch?v=zVR7BDJRXw0", "platform": "YouTube", "duration": "55 мин"},
+                {"type": "статья", "name": "Дизайн-система в Figma взгляд на интерфейс через компоненты", "link": "https://habr.com/ru/articles/421111/", "platform": "Habr", "duration": "15 мин"},
+                {"type": "статья", "name": "Окей Гугл Как создать дизайн-систему советы от практиков", "link": "https://habr.com/ru/articles/720554/", "platform": "Habr", "duration": "15 мин"},
+                {"type": "видео", "name": "Adobe Illustrator за 1 час уроки для начинающих", "link": "https://www.youtube.com/watch?v=FE_EOOGfqBY", "platform": "YouTube", "duration": "1 час"}
+            ]
+        },
+        "step_4": {
+            "title": "Психология пользователя и UX Writing",
+            "description": "Психология восприятия и тексты в интерфейсах",
+            "materials": [
+                {"type": "видео", "name": "Психология пользователя и паттерны восприятия в UI UX Дизайне", "link": "https://www.youtube.com/watch?v=LatgpIQv1h0", "platform": "YouTube", "duration": "35 мин"},
+                {"type": "видео", "name": "Accessibility гайдлайны в дизайне современные стандарты доступности", "link": "https://www.youtube.com/watch?v=jhEqCIcNSu0", "platform": "YouTube", "duration": "40 мин"},
+                {"type": "видео", "name": "UX Writing как писать тексты в интерфейсе Наталья Серёжникова", "link": "https://www.youtube.com/watch?v=VLAvHBABcgE", "platform": "YouTube", "duration": "50 мин"},
+                {"type": "статья", "name": "Инструменты Figma типографика цвета и компоненты правильно", "link": "https://habr.com/ru/articles/853246/", "platform": "Habr", "duration": "12 мин"}
+            ]
+        },
+        "step_5": {
+            "title": "Мобильные приложения и UI паттерны",
+            "description": "Проектирование мобильных интерфейсов",
+            "materials": [
+                {"type": "видео", "name": "Основы UX UI дизайна мобильных приложений", "link": "https://www.youtube.com/watch?v=5rt53Ji5NMI", "platform": "YouTube", "duration": "60 мин"},
+                {"type": "видео", "name": "Введение в UI паттерны для проектирования интерфейсов", "link": "https://www.youtube.com/watch?v=4mVJvM1gqHs", "platform": "YouTube", "duration": "25 мин"},
+                {"type": "видео", "name": "Дизайн мобильных приложений UX UI Пошаговый гайд", "link": "https://www.youtube.com/watch?v=SkGZyT6HJ8A", "platform": "YouTube", "duration": "45 мин"}
+            ]
+        }
+    },
+    "expert": {
+        "welcome": {
+            "title": "Экспертный уровень UX/UI",
+            "description": "Accessibility сервис-дизайн и карьерный рост",
+            "materials": [
+                {"type": "статья", "name": "Мои правила хорошей дизайн-системы компоненты и архитектура Figma", "link": "https://habr.com/ru/articles/340774/", "platform": "Habr", "duration": "15 мин"},
+                {"type": "статья", "name": "5 ошибок accessibility в дизайне интерфейсов которые ломают UX", "link": "https://habr.com/ru/articles/1004246/", "platform": "Habr", "duration": "12 мин"}
+            ]
+        },
+        "step_1": {
+            "title": "Анимация интерфейсов",
+            "description": "Motion-дизайн и анимация в Figma",
+            "materials": [
+                {"type": "видео", "name": "Анимация интерфейсов ключевые фишки которые нужно знать", "link": "https://www.youtube.com/watch?v=ykAN7fxORFg", "platform": "YouTube", "duration": "35 мин"},
+                {"type": "статья", "name": "Гайд по UI анимации как начать анимировать интерфейсы", "link": "https://habr.com/ru/companies/raiffeisenbank/articles/548254/", "platform": "Habr", "duration": "15 мин"},
+                {"type": "видео", "name": "Анимация в Figma пошаговый туториал", "link": "https://www.youtube.com/watch?v=BUwKq-SAWNs", "platform": "YouTube", "duration": "35 мин"}
+            ]
+        },
+        "step_2": {
+            "title": "UX стратегия и сервис-дизайн",
+            "description": "Высокоуровневое проектирование продуктов",
+            "materials": [
+                {"type": "видео", "name": "Уровни UX дизайна UX стратегия", "link": "https://www.youtube.com/watch?v=-XXM6mHomx8", "platform": "YouTube", "duration": "30 мин"},
+                {"type": "видео", "name": "Что такое Сервис Дизайн", "link": "https://www.youtube.com/watch?v=gvrrzUUlKLA", "platform": "YouTube", "duration": "20 мин"},
+                {"type": "статья", "name": "Сервисный дизайн как проектируем функционал обслуживания продуктов", "link": "https://habr.com/ru/companies/yadro/articles/814263/", "platform": "Habr", "duration": "12 мин"}
+            ]
+        },
+        "step_3": {
+            "title": "Брендинг и реальные кейсы",
+            "description": "Фирменный стиль и крупные продуктовые кейсы",
+            "materials": [
+                {"type": "видео", "name": "Создание фирменного стиля и брендинг Как создать дизайн для брендов", "link": "https://www.youtube.com/watch?v=tKWnOIueDgE", "platform": "YouTube", "duration": "35 мин"},
+                {"type": "статья", "name": "Дизайн на 100 миллионов как пересобирали главную Госуслуг", "link": "https://habr.com/ru/articles/1022358/", "platform": "Habr", "duration": "18 мин"}
+            ]
+        },
+        "step_4": {
+            "title": "Карьера дизайнера",
+            "description": "Пути развития в профессии дизайнера",
+            "materials": [
+                {"type": "видео", "name": "3 пути развития для UX UI дизайнера в 2025 стратегия карьерного роста", "link": "https://www.youtube.com/watch?v=VvVPPaU2KMo", "platform": "YouTube", "duration": "25 мин"}
+            ]
+        }
+    }
+}

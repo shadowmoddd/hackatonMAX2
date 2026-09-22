@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #1a1a1a;
+    padding: 28mm 24mm;
+    max-width: 210mm;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #1a1a1a;
+  }
+  h2 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 18px 0 8px;
+    background: #1a1a1a;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 3px;
+  }
+  h3 {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 12px 0 6px;
+    color: #1a1a1a;
+  }
+  ol {
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  ol li {
+    margin-bottom: 5px;
+  }
+  .note {
+    background: #f5f5f5;
+    border-left: 3px solid #1a1a1a;
+    padding: 6px 10px;
+    margin: 8px 0;
+    font-size: 12px;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .feature {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  .feature strong {
+    display: block;
+    margin-bottom: 2px;
+  }
+  .bot-link {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 14px 0;
+  }
+  @media print {
+    body { padding: 15mm 20mm; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Сценарий тестирования — Progressors Learning Bot</h1>
+<div class="subtitle">
+  Бот: <span class="bot-link">@progressors_learn_bot</span> &nbsp;·&nbsp;
+  True Tech Arena 2026 &nbsp;·&nbsp;
+  Открыть: /start → кнопка «🚀 Открыть приложение»
+</div>
+
+<h2>Сценарий 1 — IT Backend (основной, ~5 минут)</h2>
+
+<h3>1. Запуск</h3>
+<ol>
+  <li>Найти бота <strong>@progressors_learn_bot</strong> в Telegram</li>
+  <li>Нажать <strong>/start</strong></li>
+  <li>Нажать кнопку <strong>🚀 Открыть приложение</strong> — Mini App откроется внутри Telegram</li>
+</ol>
+
+<h3>2. Онбординг и диагностика</h3>
+<ol>
+  <li>Выбрать сферу: <strong>IT → Backend-разработка</strong></li>
+  <li>Пройти 7 вопросов диагностического квиза — отвечать своими словами, можно кратко</li>
+  <li>ИИ (Groq llama-3.3-70b) оценивает ответы семантически — понимает суть, а не точное совпадение слов</li>
+  <li>Выбрать форматы обучения (например, <strong>Видео</strong>)</li>
+  <li>Система определит уровень: Новичок / Средний / Продвинутый</li>
+</ol>
+
+<h3>3. Работа с маршрутом</h3>
+<ol>
+  <li>Открыть <strong>Шаг 1 — «Основы Python»</strong></li>
+  <li>Нажать <strong>▶ Смотреть</strong> на видео — YouTube-плеер запускается <em>прямо внутри приложения</em></li>
+  <li>Нажать кнопку <strong>📖 Документация</strong> — открываются шпаргалки по Python/Django/FastAPI через Telegram Instant View</li>
+  <li>Нажать <strong>📚 Хочу больше материалов</strong> → выбрать формат → ИИ подбирает из базы 273 ресурсов</li>
+</ol>
+
+<h3>4. Квиз и корректировка курса</h3>
+<ol>
+  <li>Пройти квиз по шагу, намеренно допустить 2–3 ошибки</li>
+  <li>Нажать <strong>«🎯 Откорректировать курс»</strong></li>
+  <li>ИИ анализирует конкретные ошибки пользователя и выдаёт уникальный персональный совет</li>
+</ol>
+
+<h3>5. Следующий шаг</h3>
+<ol>
+  <li>Нажать <strong>✅ Завершить шаг</strong></li>
+  <li>Убедиться: Шаг 2 «ООП» содержит <em>другие</em> материалы — повторений нет</li>
+  <li>Сменить сферу → вернуться обратно → прогресс и пройденные шаги сохранены</li>
+</ol>
+
+<hr class="divider">
+
+<h2>Сценарий 2 — Персонализация (~3 минуты)</h2>
+
+<ol>
+  <li>Начать заново → выбрать <strong>IT → Machine Learning</strong></li>
+  <li>Пройти квиз с развёрнутыми, грамотными ответами → система определит уровень <strong>Средний</strong> или <strong>Продвинутый</strong></li>
+  <li>Запустить ещё раз, отвечать кратко или не по теме → уровень <strong>Новичок</strong>, маршрут другой</li>
+</ol>
+
+<div class="note">
+  Один пользователь, одна сфера, разные знания — разные маршруты. Демонстрирует настоящую персонализацию.
+</div>
+
+<hr class="divider">
+
+<h2>Ключевые сильные стороны решения</h2>
+
+<div class="features">
+  <div class="feature">
+    <strong>Видео внутри приложения</strong>
+    YouTube-плеер встроен — ничего не открывается в браузере
+  </div>
+  <div class="feature">
+    <strong>Семантический квиз</strong>
+    «нейронные слои» засчитывается как правильный ответ про ИИ
+  </div>
+  <div class="feature">
+    <strong>273 проверенных ресурса</strong>
+    Прямые ссылки, только бесплатное, только на русском
+  </div>
+  <div class="feature">
+    <strong>Документация в Telegram</strong>
+    Шпаргалки по языкам через Telegram Instant View — не уходит из приложения
+  </div>
+  <div class="feature">
+    <strong>Уникальный AI-совет</strong>
+    Groq анализирует конкретные ошибки, не шаблонный текст
+  </div>
+  <div class="feature">
+    <strong>Прогресс не теряется</strong>
+    Смена сферы и возврат — всё сохраняется
+  </div>
+</div>
+
+</body>
+</html>

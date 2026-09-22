@@ -1,0 +1,382 @@
+# backend.txt - База данных материалов (восстановлена)
+
+BACKEND_MATERIALS = {
+    # ==================== НОВИЧОК ====================
+    "beginner": {
+        "welcome": {
+            "title": 'Beginner — welcome',
+            "description": 'Материалы для welcome',
+            "materials": [
+                {
+                    "type": 'статья',
+                    "name": 'ООП в Python за 1 статью: от «Hello World» до архитектуры',
+                    "link": 'https://habr.com/ru/articles/1000378/',
+                    "platform": 'Habr',
+                    "duration": '60 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Всё, что нужно знать про GIL в Python',
+                    "link": 'https://habr.com/ru/companies/piter/articles/836280/',
+                    "platform": 'Habr',
+                    "duration": '25 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Декораторы в Python: как и зачем их использовать',
+                    "link": 'https://habr.com/ru/articles/840116/',
+                    "platform": 'Habr',
+                    "duration": '20 мин'
+                },
+            ]
+        },
+        "step_1": {
+            "title": 'Beginner — step 1',
+            "description": 'Материалы для step_1',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Docker Для Начинающих за 1 Час | Docker с Нуля',
+                    "link": 'https://www.youtube.com/watch?v=lr1rYnUubpQ',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Алгоритмы и структуры данных за 15 минут! Вместо 4 лет универа',
+                    "link": 'https://www.youtube.com/watch?v=JaLste-woaE',
+                    "platform": 'YouTube',
+                    "duration": '15 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Концепция ООП простыми словами | Объектно-ориентированное программирование Python',
+                    "link": 'https://www.youtube.com/watch?v=Z7AY41tE-3U',
+                    "platform": 'YouTube',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Что такое Framework? Создание своего веб-фреймворка на Python',
+                    "link": 'https://www.youtube.com/watch?v=PJMpKY5fKUA',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Git и GitHub для новичков',
+                    "link": 'https://www.youtube.com/watch?v=EeARyFrZsnU',
+                    "platform": 'YouTube',
+                    "duration": '25 мин'
+                },
+            ]
+        },
+        "step_2": {
+            "title": 'Beginner — step 2',
+            "description": 'Материалы для step_2',
+            "materials": [
+                {
+                    "type": 'статья',
+                    "name": 'Введение в базы данных для начинающих',
+                    "link": 'https://habr.com/ru/articles/818147/',
+                    "platform": 'Habr',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Nginx для начинающих: установка и настройка',
+                    "link": 'https://habr.com/ru/companies/timeweb/articles/969508/',
+                    "platform": 'Habr',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Что нужно знать про HTTP для backend-разработчика',
+                    "link": 'https://habr.com/ru/companies/ruvds/articles/722464/',
+                    "platform": 'Habr',
+                    "duration": '25 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'PostgreSQL для начинающих: основы и примеры',
+                    "link": 'https://habr.com/ru/articles/804799/',
+                    "platform": 'Habr',
+                    "duration": '35 мин'
+                },
+            ]
+        },
+    },
+    # ==================== ПРОДВИНУТЫЙ ====================
+    "advanced": {
+        "step_3": {
+            "title": 'Advanced — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Асинхронный Python и Asyncio полный курс',
+                    "link": 'https://www.youtube.com/watch?v=slxp5d_KTXo',
+                    "platform": 'YouTube',
+                    "duration": '3 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Асинхронность многопоточность многопроцессность Python asyncio',
+                    "link": 'https://www.youtube.com/watch?v=_4QY1nGFRY8',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+            ]
+        },
+        "step_4": {
+            "title": 'Advanced — step 4',
+            "description": 'Материалы для step_4',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'SQLAlchemy ORM удобная работа с базами данных',
+                    "link": 'https://www.youtube.com/watch?v=PAKJpfxeXjc',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Работа с SQLAlchemy в Python',
+                    "link": 'https://www.youtube.com/watch?v=WJZA3sfFi18',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+            ]
+        },
+    },
+    # ==================== ЭКСПЕРТ ====================
+    "expert": {
+        "step_1": {
+            "title": 'Expert — step 1',
+            "description": 'Материалы для step_1',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Продвинутый Docker: сети, volumes, docker-compose',
+                    "link": 'https://www.youtube.com/watch?v=L9GZAxhurUY',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Асинхронность в Python: asyncio, aiohttp',
+                    "link": 'https://www.youtube.com/watch?v=DI_2GGna_7E',
+                    "platform": 'YouTube',
+                    "duration": '50 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Микросервисная архитектура: основы и практика',
+                    "link": 'https://www.youtube.com/watch?v=4mTPFPZ5h34',
+                    "platform": 'YouTube',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Оптимизация запросов к БД и индексы',
+                    "link": 'https://www.youtube.com/watch?v=flX4uNlAMo4',
+                    "platform": 'YouTube',
+                    "duration": '35 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'REST API: лучшие практики и проектирование',
+                    "link": 'https://www.youtube.com/watch?v=nysVwISk9_c',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Собеседование Python Junior разработчик [2026]',
+                    "link": 'https://www.youtube.com/watch?v=zibAC8HkGFk',
+                    "platform": 'YouTube',
+                    "duration": '1 час 47 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Реальное Собеседование на Junior Backend разработчика — Это нужно знать!',
+                    "link": 'https://www.youtube.com/watch?v=6-xrwyDXGE4',
+                    "platform": 'YouTube',
+                    "duration": '20 мин'
+                },
+            ]
+        },
+        "step_2": {
+            "title": 'Expert — step 2',
+            "description": 'Материалы для step_2',
+            "materials": [
+                {
+                    "type": 'статья',
+                    "name": 'PostgreSQL для продолжающих: оптимизация и масштабирование',
+                    "link": 'https://habr.com/ru/articles/804799/',
+                    "platform": 'Habr',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Архитектура высоконагруженных систем',
+                    "link": 'https://habr.com/ru/companies/otus/articles/844114/',
+                    "platform": 'Habr',
+                    "duration": '35 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Kafka для backend-разработчика: основы',
+                    "link": 'https://habr.com/ru/articles/959544/',
+                    "platform": 'Habr',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'CI/CD для backend: GitLab CI, GitHub Actions',
+                    "link": 'https://habr.com/ru/articles/836464/',
+                    "platform": 'Habr',
+                    "duration": '25 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'GraphQL vs REST: что выбрать и почему',
+                    "link": 'https://habr.com/ru/articles/979614/',
+                    "platform": 'Habr',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Docker Compose: полное руководство',
+                    "link": 'https://habr.com/ru/articles/768752/',
+                    "platform": 'Habr',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Что нужно знать про asyncio в Python',
+                    "link": 'https://habr.com/ru/companies/skillbox/articles/420119/',
+                    "platform": 'Habr',
+                    "duration": '25 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Тестирование backend-приложений: unit, integration, e2e',
+                    "link": 'https://habr.com/ru/companies/otus/articles/755460/',
+                    "platform": 'Habr',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Создание RESTful API с помощью Django и Django REST Framework',
+                    "link": 'https://habr.com/ru/companies/amvera/articles/856798/',
+                    "platform": 'Habr',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Что должен знать разработчик на Python без опыта',
+                    "link": 'https://tproger.ru/articles/chto-dolzhen-znat-razrabotchik-na-python-bez-opyta',
+                    "platform": 'Tproger',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Топ вопросов для собеседования по Python',
+                    "link": 'https://practicum.yandex.ru/blog/top-voprosov-dlya-sobesedovaniya-po-python/',
+                    "platform": 'Яндекс Практикум',
+                    "duration": '25 мин'
+                },
+            ]
+        },
+        "step_3": {
+            "title": 'Expert — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Асинхронный Python и Asyncio полный курс',
+                    "link": 'https://www.youtube.com/watch?v=slxp5d_KTXo',
+                    "platform": 'YouTube',
+                    "duration": '3 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Асинхронность многопоточность многопроцессность Python asyncio',
+                    "link": 'https://www.youtube.com/watch?v=_4QY1nGFRY8',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Асинхронный Python и Asyncio полный курс',
+                    "link": 'https://www.youtube.com/watch?v=slxp5d_KTXo',
+                    "platform": 'YouTube',
+                    "duration": '3 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Асинхронность многопоточность многопроцессность Python asyncio',
+                    "link": 'https://www.youtube.com/watch?v=_4QY1nGFRY8',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Паттерны проектирования на Python',
+                    "link": 'https://www.youtube.com/watch?v=x5yGIuf13Rk',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Паттерны проектирования на Python',
+                    "link": 'https://www.youtube.com/watch?v=x5yGIuf13Rk',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Паттерны проектирования на Python',
+                    "link": 'https://www.youtube.com/watch?v=x5yGIuf13Rk',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+            ]
+        },
+        "step_4": {
+            "title": 'Expert — step 4',
+            "description": 'Материалы для step_4',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'SQLAlchemy ORM удобная работа с базами данных',
+                    "link": 'https://www.youtube.com/watch?v=PAKJpfxeXjc',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Работа с SQLAlchemy в Python',
+                    "link": 'https://www.youtube.com/watch?v=WJZA3sfFi18',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'SQLAlchemy ORM удобная работа с базами данных',
+                    "link": 'https://www.youtube.com/watch?v=PAKJpfxeXjc',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Работа с SQLAlchemy в Python',
+                    "link": 'https://www.youtube.com/watch?v=WJZA3sfFi18',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+            ]
+        },
+    },
+}

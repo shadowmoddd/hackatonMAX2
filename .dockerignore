@@ -1,0 +1,11 @@
+.env
+.git/
+.gitignore
+miniapp/
+tests/
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+data/*.db
+data/*.sqlite

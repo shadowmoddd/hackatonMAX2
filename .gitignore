@@ -1,0 +1,17 @@
+.env
+.env.local
+.claude/
+CLAUDE.md
+MEMORY.md
+*.pyc
+__pycache__/
+*.pyo
+.pytest_cache/
+.mypy_cache/
+data/*.db
+data/*.sqlite
+.idea/
+*.egg-info/
+dist/
+build/
+.DS_Store

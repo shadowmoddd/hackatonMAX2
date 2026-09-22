@@ -1,0 +1,342 @@
+# frontend.txt - База данных материалов (восстановлена)
+
+FRONTEND_MATERIALS = {
+    # ==================== НОВИЧОК ====================
+    "beginner": {
+        "welcome": {
+            "title": 'Beginner — welcome',
+            "description": 'Материалы для welcome',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Основы HTML — создание контента на веб-странице',
+                    "link": 'https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content',
+                    "platform": 'MDN Web Docs',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Основы CSS — стилизация веб-страницы',
+                    "link": 'https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content',
+                    "platform": 'MDN Web Docs',
+                    "duration": '60 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'История появления JavaScript',
+                    "link": 'https://habr.com/ru/companies/htmlacademy/articles/342066/',
+                    "platform": 'Habr',
+                    "duration": '15 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'JavaScript: что нужно знать новичку',
+                    "link": 'https://habr.com/ru/articles/541258/',
+                    "platform": 'Habr',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Git и GitHub для фронтенд-разработчика',
+                    "link": 'https://habr.com/ru/companies/ruvds/articles/720704/',
+                    "platform": 'Habr',
+                    "duration": '25 мин'
+                },
+            ]
+        },
+        "step_1": {
+            "title": 'Beginner — step 1',
+            "description": 'Материалы для step_1',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'HTML с нуля — полный курс по основам за 2 часа',
+                    "link": 'https://www.youtube.com/watch?v=0-fHQnlaWcM',
+                    "platform": 'YouTube',
+                    "duration": '2 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'CSS с нуля — полный курс по основам за 3 часа',
+                    "link": 'https://www.youtube.com/watch?v=Jz6VvCc8IrQ',
+                    "platform": 'YouTube',
+                    "duration": '3 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'JavaScript для начинающих — основы',
+                    "link": 'https://www.youtube.com/watch?v=fHl7UyRjOf0',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Git и GitHub для начинающих',
+                    "link": 'https://www.youtube.com/watch?v=AUdW01JQFME',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Введение в React для новичков',
+                    "link": 'https://www.youtube.com/watch?v=AFEnDB-YZdI',
+                    "platform": 'YouTube',
+                    "duration": '35 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Что такое DOM и как с ним работать',
+                    "link": 'https://www.youtube.com/watch?v=CQi2Xe61e50',
+                    "platform": 'YouTube',
+                    "duration": '25 мин'
+                },
+            ]
+        },
+        "step_3": {
+            "title": 'Beginner — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Vue JS с Нуля полный курс для начинающих 2025',
+                    "link": 'https://www.youtube.com/watch?v=1rRD9uMF92o',
+                    "platform": 'YouTube',
+                    "duration": '4 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'CSS Grid Полный курс',
+                    "link": 'https://www.youtube.com/watch?v=yTLqfUxwdDk',
+                    "platform": 'YouTube',
+                    "duration": '2 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Next.js с Нуля полный курс для начинающих 2025',
+                    "link": 'https://www.youtube.com/watch?v=KZb53sf-PEg',
+                    "platform": 'YouTube',
+                    "duration": '3 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Vue JS с Нуля полный курс для начинающих 2025',
+                    "link": 'https://www.youtube.com/watch?v=1rRD9uMF92o',
+                    "platform": 'YouTube',
+                    "duration": '4 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'CSS Grid Полный курс',
+                    "link": 'https://www.youtube.com/watch?v=yTLqfUxwdDk',
+                    "platform": 'YouTube',
+                    "duration": '2 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Next.js с Нуля полный курс для начинающих 2025',
+                    "link": 'https://www.youtube.com/watch?v=KZb53sf-PEg',
+                    "platform": 'YouTube',
+                    "duration": '3 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Vue JS с Нуля полный курс для начинающих 2025',
+                    "link": 'https://www.youtube.com/watch?v=1rRD9uMF92o',
+                    "platform": 'YouTube',
+                    "duration": '4 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'CSS Grid Полный курс',
+                    "link": 'https://www.youtube.com/watch?v=yTLqfUxwdDk',
+                    "platform": 'YouTube',
+                    "duration": '2 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Next.js с Нуля полный курс для начинающих 2025',
+                    "link": 'https://www.youtube.com/watch?v=KZb53sf-PEg',
+                    "platform": 'YouTube',
+                    "duration": '3 часа'
+                },
+            ]
+        },
+    },
+    # ==================== ПРОДВИНУТЫЙ ====================
+    "advanced": {
+        "step_3": {
+            "title": 'Advanced — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Svelte с нуля за 5 часов TypeScript',
+                    "link": 'https://www.youtube.com/watch?v=ZMOdvPXP1iY',
+                    "platform": 'YouTube',
+                    "duration": '5 часов'
+                },
+            ]
+        },
+    },
+    # ==================== ЭКСПЕРТ ====================
+    "expert": {
+        "step_1": {
+            "title": 'Expert — step 1',
+            "description": 'Материалы для step_1',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Продвинутый JavaScript: асинхронность, промисы, event loop',
+                    "link": 'https://www.youtube.com/watch?v=TmgbYJgcw9c',
+                    "platform": 'YouTube',
+                    "duration": '50 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Angular для начинающих — полный курс',
+                    "link": 'https://www.youtube.com/watch?v=MRzbePMvsPI',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Webpack — полный курс по сборщику',
+                    "link": 'https://www.youtube.com/watch?v=X58aKdx1cSQ',
+                    "platform": 'YouTube',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Паттерны проектирования в JavaScript',
+                    "link": 'https://www.youtube.com/watch?v=73z2yV84f8M',
+                    "platform": 'YouTube',
+                    "duration": '35 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'РЕАЛЬНОЕ СОБЕСЕДОВАНИЕ НА MIDDLE FRONTEND РАЗРАБОТЧИКА',
+                    "link": 'https://www.youtube.com/watch?v=vUm4I1jOjak',
+                    "platform": 'YouTube',
+                    "duration": '55 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Собеседование фронтенд разработчик — все этапы',
+                    "link": 'https://www.youtube.com/watch?v=OZPOO79Y4jk',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Как пройти собеседование frontend разработчику',
+                    "link": 'https://www.youtube.com/watch?v=A2O_x6kG35c',
+                    "platform": 'YouTube',
+                    "duration": '40 мин'
+                },
+            ]
+        },
+        "step_2": {
+            "title": 'Expert — step 2',
+            "description": 'Материалы для step_2',
+            "materials": [
+                {
+                    "type": 'статья',
+                    "name": 'Паттерны проектирования в frontend-разработке',
+                    "link": 'https://habr.com/ru/companies/ruvds/articles/428077/',
+                    "platform": 'Habr',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Angular — начало работы (MDN)',
+                    "link": 'https://developer.mozilla.org/ru/docs/Learn_web_development/Core/Frameworks_libraries/Angular_getting_started',
+                    "platform": 'MDN Web Docs',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Обработка ошибок в JavaScript и TypeScript',
+                    "link": 'https://habr.com/ru/companies/ruvds/articles/509700/',
+                    "platform": 'Habr',
+                    "duration": '25 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Оптимизация производительности фронтенда',
+                    "link": 'https://habr.com/ru/articles/802047/',
+                    "platform": 'Habr',
+                    "duration": '35 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Генераторы и итераторы в JavaScript',
+                    "link": 'https://habr.com/ru/companies/auriga/articles/703836/',
+                    "platform": 'Habr',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Вопросы на собеседовании для фронтенд-разработчика',
+                    "link": 'https://practicum.yandex.ru/blog/sobesedovanie-frontend-razrabotchika/',
+                    "platform": 'Яндекс Практикум',
+                    "duration": '25 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Вопросы и ответы для собеседования на позицию frontend-разработчик. Часть 1',
+                    "link": 'https://habr.com/ru/articles/784548/',
+                    "platform": 'Habr',
+                    "duration": '60 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": '42 вопроса на собеседовании фронтенд разработчика 2026',
+                    "link": 'https://itcodik.com/article/frontend-interview-questions-2026-guide',
+                    "platform": 'itcodik',
+                    "duration": '45 мин'
+                },
+            ]
+        },
+        "step_3": {
+            "title": 'Expert — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Svelte с нуля за 5 часов TypeScript',
+                    "link": 'https://www.youtube.com/watch?v=ZMOdvPXP1iY',
+                    "platform": 'YouTube',
+                    "duration": '5 часов'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Svelte с нуля за 5 часов TypeScript',
+                    "link": 'https://www.youtube.com/watch?v=ZMOdvPXP1iY',
+                    "platform": 'YouTube',
+                    "duration": '5 часов'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Webpack ПОЛНЫЙ КУРС от А до Я Module Federation',
+                    "link": 'https://www.youtube.com/watch?v=acAH2_YT6bs',
+                    "platform": 'YouTube',
+                    "duration": '4 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Webpack ПОЛНЫЙ КУРС от А до Я Module Federation',
+                    "link": 'https://www.youtube.com/watch?v=acAH2_YT6bs',
+                    "platform": 'YouTube',
+                    "duration": '4 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Webpack ПОЛНЫЙ КУРС от А до Я Module Federation',
+                    "link": 'https://www.youtube.com/watch?v=acAH2_YT6bs',
+                    "platform": 'YouTube',
+                    "duration": '4 часа'
+                },
+            ]
+        },
+    },
+}

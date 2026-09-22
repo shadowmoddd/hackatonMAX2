@@ -1,0 +1,456 @@
+# видеомонтаж.txt - База данных материалов (восстановлена)
+
+VIDEO_EDITING_MATERIALS = {
+    # ==================== НОВИЧОК ====================
+    "beginner": {
+        "welcome": {
+            "title": 'Beginner — welcome',
+            "description": 'Материалы для welcome',
+            "materials": [
+                {
+                    "type": 'статья',
+                    "name": 'Основы монтажа видео для новичков',
+                    "link": 'https://timeweb.com/ru/community/articles/osnovy-montazha-video-dlya-novichkov',
+                    "platform": 'Timeweb',
+                    "duration": '10 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Как монтировать видео — советы для новичков',
+                    "link": 'https://hi-tech.mail.ru/review/105001-kak-montirovat-video/',
+                    "platform": 'Mail.ru Hi-Tech',
+                    "duration": '12 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Видеомонтаж: навыки и техники для начинающих',
+                    "link": 'https://kadrtv.ru/videoediting-naviki-i-techniki/',
+                    "platform": 'KadrTV',
+                    "duration": '15 мин'
+                },
+            ]
+        },
+        "step_1": {
+            "title": 'Beginner — step 1',
+            "description": 'Материалы для step_1',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Как монтировать видео в Premiere Pro с НУЛЯ | КУРС для начинающих',
+                    "link": 'https://www.youtube.com/watch?v=j55h4IAC9LY&list=PLAk0Ats_zLZq8eHxzNh7xD1CJFsHfHpch',
+                    "platform": 'YouTube',
+                    "duration": '~6 часов'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'ВСЁ о МОНТАЖЕ за 5 МИНУТ | Склейки | Эффект Кулешова | Динамика',
+                    "link": 'https://www.youtube.com/watch?v=hCE7pMrp7X0&list=PLX9plZEau9JxPNI7o07oeHcQBF-M_bgBo',
+                    "platform": 'YouTube',
+                    "duration": '~8 часов (плейлист)'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Как научиться монтажу в 2026 и обойти всех? Начни с этого видео',
+                    "link": 'https://www.youtube.com/watch?v=kJLfV0zyDrY',
+                    "platform": 'YouTube',
+                    "duration": '19 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": '5 ОШИБОК НАЧИНАЮЩЕГО МОНТАЖЕРА | Как монтировать видео лучше других',
+                    "link": 'https://www.youtube.com/watch?v=_PE2QPovSp4',
+                    "platform": 'YouTube',
+                    "duration": '12 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": '12 ЧАСОВ УРОКОВ ПО ADOBE PREMIERE | Полный курс',
+                    "link": 'https://www.youtube.com/watch?v=bPnREIZm1Cs',
+                    "platform": 'YouTube',
+                    "duration": '12 часов'
+                },
+            ]
+        },
+        "step_2": {
+            "title": 'Beginner — step 2',
+            "description": 'Материалы для step_2',
+            "materials": [
+                {
+                    "type": 'статья',
+                    "name": 'Профессия режиссёр монтажа — подробный гид',
+                    "link": 'https://brunoyam.com/blog/dizain/professiya-rezhissyor-montazha#h_53867306148301733230007818',
+                    "platform": 'Brunoyam',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Профессия режиссёр монтажа — Bang Bang Education',
+                    "link": 'https://bangbangeducation.ru/point/video-i-kino/professiya-rezhisser-montazha/',
+                    "platform": 'Bang Bang Education',
+                    "duration": '25 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Всё о видеомонтаже: программы, приёмы, советы',
+                    "link": 'https://skillbox.ru/media/cinemusic/video-editing/',
+                    "platform": 'Skillbox',
+                    "duration": '18 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Как монтировать видео в Premiere Pro — стартовый урок',
+                    "link": 'https://www.youtube.com/watch?v=gSX5-Jn5Hk8',
+                    "platform": 'YouTube',
+                    "duration": '15 мин'
+                },
+            ]
+        },
+        "step_3": {
+            "title": 'Beginner — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Основы съемки и монтажа видео бесплатный курс',
+                    "link": 'https://www.youtube.com/watch?v=qlr7MYI7q2o',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Полный гайд по монтажу REELS TikTok SHORTS',
+                    "link": 'https://www.youtube.com/watch?v=nSusM8xe0rE',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Основы съемки и монтажа видео бесплатный курс',
+                    "link": 'https://www.youtube.com/watch?v=qlr7MYI7q2o',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Полный гайд по монтажу REELS TikTok SHORTS',
+                    "link": 'https://www.youtube.com/watch?v=nSusM8xe0rE',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Основы съемки и монтажа видео бесплатный курс',
+                    "link": 'https://www.youtube.com/watch?v=qlr7MYI7q2o',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Полный гайд по монтажу REELS TikTok SHORTS',
+                    "link": 'https://www.youtube.com/watch?v=nSusM8xe0rE',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+            ]
+        },
+    },
+    # ==================== ПРОДВИНУТЫЙ ====================
+    "advanced": {
+        "step_3": {
+            "title": 'Advanced — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Звук и саунд дизайн для видео',
+                    "link": 'https://www.youtube.com/watch?v=HOHCScGQlLg',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Анимация текста в DaVinci Resolve',
+                    "link": 'https://www.youtube.com/watch?v=NNk7tShUAYA',
+                    "platform": 'YouTube',
+                    "duration": '20 мин'
+                },
+            ]
+        },
+        "step_4": {
+            "title": 'Advanced — step 4',
+            "description": 'Материалы для step_4',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Цветокоррекция Adobe Premiere Pro бесплатные LUT',
+                    "link": 'https://www.youtube.com/watch?v=AOM0wBf8b-Y',
+                    "platform": 'YouTube',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Как монтировать интервью профессиональный подход',
+                    "link": 'https://www.youtube.com/watch?v=7yXkTz6HOJM',
+                    "platform": 'YouTube',
+                    "duration": '25 мин'
+                },
+            ]
+        },
+        "step_5": {
+            "title": 'Advanced — step 5',
+            "description": 'Материалы для step_5',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Стабилизация видео Adobe Premiere Pro',
+                    "link": 'https://www.youtube.com/watch?v=-ImFu2FhBP4',
+                    "platform": 'YouTube',
+                    "duration": '15 мин'
+                },
+            ]
+        },
+    },
+    # ==================== ЭКСПЕРТ ====================
+    "expert": {
+        "step_1": {
+            "title": 'Expert — step 1',
+            "description": 'Материалы для step_1',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Продвинутый монтаж в Premiere Pro — уроки профи',
+                    "link": 'https://www.youtube.com/watch?v=cuR7LZnOYsA',
+                    "platform": 'YouTube',
+                    "duration": '35 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Как делать крутой монтаж — секреты профессионалов',
+                    "link": 'https://www.youtube.com/watch?v=6eErF_cCygk',
+                    "platform": 'YouTube',
+                    "duration": '28 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Монтаж для REELS, SHORTS и TikTok | ТОП ПРИЁМОВ',
+                    "link": 'https://www.youtube.com/watch?v=l4uXkMR6gUk&list=PLAk0Ats_zLZq8eHxzNh7xD1CJFsHfHpch&index=2',
+                    "platform": 'YouTube',
+                    "duration": '21 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Цветокоррекция и работа со звуком в монтаже',
+                    "link": 'https://www.youtube.com/watch?v=fdyII9U0Rso',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Сложный монтаж: кейсы и разборы',
+                    "link": 'https://www.youtube.com/watch?v=tQadosJgCa8',
+                    "platform": 'YouTube',
+                    "duration": '25 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Мастер-класс по видеомонтажу от эксперта',
+                    "link": 'https://www.youtube.com/watch?v=UQX6ZeCA1d0',
+                    "platform": 'YouTube',
+                    "duration": '50 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Секреты монтажа профессионалов — разборы',
+                    "link": 'https://www.youtube.com/watch?v=sNm7kY_mQso',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Как монтировать видео на профессиональном уровне',
+                    "link": 'https://www.youtube.com/watch?v=y2_Z76A6Xq0',
+                    "platform": 'YouTube',
+                    "duration": '38 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Продвинутый монтаж в DaVinci Resolve',
+                    "link": 'https://www.youtube.com/watch?v=VNuxWFAZ3SM',
+                    "platform": 'YouTube',
+                    "duration": '55 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Сложный монтаж киношного уровня',
+                    "link": 'https://www.youtube.com/watch?v=7yXkTz6HOJM',
+                    "platform": 'YouTube',
+                    "duration": '42 мин'
+                },
+            ]
+        },
+        "step_2": {
+            "title": 'Expert — step 2',
+            "description": 'Материалы для step_2',
+            "materials": [
+                {
+                    "type": 'статья',
+                    "name": 'Всё о видеомонтаже: от теории к практике (Skillbox)',
+                    "link": 'https://skillbox.ru/media/cinemusic/video-editing/',
+                    "platform": 'Skillbox',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Новые методы видеомонтажа и их применение в современном кинопроизводстве',
+                    "link": 'https://apni.ru/article/10461-novye-metody-videomontazha-i-ih-primenenie-v-sovremennom-kinoproizvodstve-reklame-mobilnyh-media-i-televidenii',
+                    "platform": 'APNI',
+                    "duration": '25 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Искусство видеомонтажа: секреты профессионалов',
+                    "link": 'https://video-obertka.ru/stati/iskusstvo-videomontazha-sekrety-professionalov/',
+                    "platform": 'Video-Obertka',
+                    "duration": '15 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Эффекты и переходы в видеомонтаже: основные виды и примеры',
+                    "link": 'https://sky.pro/wiki/gamedev/effekty-i-perehody-v-videomontazhe-osnovnye-vidy-i-primery/',
+                    "platform": 'Sky.pro',
+                    "duration": '18 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Эффекты и переходы в видео: тонкости, которые важно знать',
+                    "link": 'https://kurshub.ru/journal/blog/effekty-i-perehody-v-video-tonkosti-kotorye-vazhno-znat/',
+                    "platform": 'Kurshub',
+                    "duration": '15 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Видеопереходы: как изменить видео с помощью переходов',
+                    "link": 'https://clipchamp.com/ru/blog/video-transitions-transform-video-editing/',
+                    "platform": 'Clipchamp',
+                    "duration": '12 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Прохождение видеоинтервью: советы кандидатам',
+                    "link": 'https://lpgenerator.ru/blog/2020/05/28/prohozhdenie-videointervyu-sovety-kandidatam/',
+                    "platform": 'LPgenerator',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Онлайн-собеседование по видео: как подготовиться и пройти успешно',
+                    "link": 'https://journal.ksk.expert/articles/onlayn-sobesedovanie-po-video-kak-podgotovitsya-i-proyti-ego-uspeshno-2058/',
+                    "platform": 'KSK Journal',
+                    "duration": '15 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Как правильно записать интервью: подготовка, съёмка и монтаж',
+                    "link": 'https://practicum.yandex.ru/blog/kak-pravilno-zapisat-intervyu/',
+                    "platform": 'Яндекс Практикум',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Как пройти собеседование видеомонтажёру',
+                    "link": 'https://habr.com/ru/articles/1028240/',
+                    "platform": 'Habr',
+                    "duration": '15 мин'
+                },
+            ]
+        },
+        "step_3": {
+            "title": 'Expert — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Звук и саунд дизайн для видео',
+                    "link": 'https://www.youtube.com/watch?v=HOHCScGQlLg',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Анимация текста в DaVinci Resolve',
+                    "link": 'https://www.youtube.com/watch?v=NNk7tShUAYA',
+                    "platform": 'YouTube',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Звук и саунд дизайн для видео',
+                    "link": 'https://www.youtube.com/watch?v=HOHCScGQlLg',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Анимация текста в DaVinci Resolve',
+                    "link": 'https://www.youtube.com/watch?v=NNk7tShUAYA',
+                    "platform": 'YouTube',
+                    "duration": '20 мин'
+                },
+            ]
+        },
+        "step_4": {
+            "title": 'Expert — step 4',
+            "description": 'Материалы для step_4',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Цветокоррекция Adobe Premiere Pro бесплатные LUT',
+                    "link": 'https://www.youtube.com/watch?v=AOM0wBf8b-Y',
+                    "platform": 'YouTube',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Как монтировать интервью профессиональный подход',
+                    "link": 'https://www.youtube.com/watch?v=7yXkTz6HOJM',
+                    "platform": 'YouTube',
+                    "duration": '25 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Цветокоррекция Adobe Premiere Pro бесплатные LUT',
+                    "link": 'https://www.youtube.com/watch?v=AOM0wBf8b-Y',
+                    "platform": 'YouTube',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Как монтировать интервью профессиональный подход',
+                    "link": 'https://www.youtube.com/watch?v=7yXkTz6HOJM',
+                    "platform": 'YouTube',
+                    "duration": '25 мин'
+                },
+            ]
+        },
+        "step_5": {
+            "title": 'Expert — step 5',
+            "description": 'Материалы для step_5',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Стабилизация видео Adobe Premiere Pro',
+                    "link": 'https://www.youtube.com/watch?v=-ImFu2FhBP4',
+                    "platform": 'YouTube',
+                    "duration": '15 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Стабилизация видео Adobe Premiere Pro',
+                    "link": 'https://www.youtube.com/watch?v=-ImFu2FhBP4',
+                    "platform": 'YouTube',
+                    "duration": '15 мин'
+                },
+            ]
+        },
+    },
+}

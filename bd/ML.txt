@@ -1,0 +1,561 @@
+# ML.txt - База данных материалов (восстановлена)
+
+ML_MATERIALS = {
+    # ==================== НОВИЧОК ====================
+    "beginner": {
+        "welcome": {
+            "title": 'Beginner — welcome',
+            "description": 'Материалы для welcome',
+            "materials": [
+                {
+                    "type": 'статья',
+                    "name": 'Разведочный анализ данных (EDA) — полное руководство',
+                    "link": 'https://habr.com/ru/companies/otus/articles/752434/',
+                    "platform": 'Habr',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Очистка данных: проблемы и современные подходы',
+                    "link": 'https://habr.com/ru/articles/548220/',
+                    "platform": 'Habr',
+                    "duration": '60 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Введение в Feature Engineering для начинающих',
+                    "link": 'https://habr.com/ru/companies/skillfactory/articles/842444/',
+                    "platform": 'Habr',
+                    "duration": '35 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": '9 ключевых алгоритмов машинного обучения простым языком',
+                    "link": 'https://habr.com/ru/articles/509472/',
+                    "platform": 'Habr',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Валидация моделей машинного обучения',
+                    "link": 'https://habr.com/ru/companies/glowbyte/articles/569970/',
+                    "platform": 'Habr',
+                    "duration": '50 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Как устроены AI облака | ИИ, инфраструктура, GPU',
+                    "link": 'https://habr.com/ru/companies/ods/articles/709688/',
+                    "platform": 'Habr',
+                    "duration": '30 мин'
+                },
+            ]
+        },
+        "step_1": {
+            "title": 'Beginner — step 1',
+            "description": 'Материалы для step_1',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'EDA, Разведочный и первичный анализ данных',
+                    "link": 'https://www.youtube.com/watch?v=mJu-88U2bBg',
+                    "platform": 'YouTube',
+                    "duration": '25 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Очистка и обработка данных с помощью Python — Часть 1',
+                    "link": 'https://www.youtube.com/watch?v=yoPQqBmE9ls',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Сложность классических ML алгоритмов',
+                    "link": 'https://www.youtube.com/watch?v=vFWDCx1isrU',
+                    "platform": 'YouTube',
+                    "duration": '20 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Как устроены AI облака | ИИ, инфраструктура, GPU | Podlodka Podcast #451',
+                    "link": 'https://www.youtube.com/watch?v=RekXblWi5jA',
+                    "platform": 'YouTube',
+                    "duration": '50 мин'
+                },
+            ]
+        },
+        "step_3": {
+            "title": 'Beginner — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Основы Scikit-learn Машинное Обучение На Python',
+                    "link": 'https://www.youtube.com/watch?v=sNDW8d8eB1U',
+                    "platform": 'YouTube',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Основы Scikit-learn Машинное Обучение На Python',
+                    "link": 'https://www.youtube.com/watch?v=sNDW8d8eB1U',
+                    "platform": 'YouTube',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Основы Scikit-learn Машинное Обучение На Python',
+                    "link": 'https://www.youtube.com/watch?v=sNDW8d8eB1U',
+                    "platform": 'YouTube',
+                    "duration": '40 мин'
+                },
+            ]
+        },
+        "step_4": {
+            "title": 'Beginner — step 4',
+            "description": 'Материалы для step_4',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'K-means кластеризация обучение без учителя',
+                    "link": 'https://www.youtube.com/watch?v=82NROMDHuj4',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'K-means кластеризация обучение без учителя',
+                    "link": 'https://www.youtube.com/watch?v=82NROMDHuj4',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'K-means кластеризация обучение без учителя',
+                    "link": 'https://www.youtube.com/watch?v=82NROMDHuj4',
+                    "platform": 'YouTube',
+                    "duration": '30 мин'
+                },
+            ]
+        },
+    },
+    # ==================== ПРОДВИНУТЫЙ ====================
+    "advanced": {
+        "step_3": {
+            "title": 'Advanced — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Scikit-learn работа с пропусками NaN',
+                    "link": 'https://www.youtube.com/watch?v=o3MuMzaVglI',
+                    "platform": 'YouTube',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'SKLearn обучение и подбор гиперпараметров',
+                    "link": 'https://www.youtube.com/watch?v=kBhYSbh0wg8',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+            ]
+        },
+        "step_4": {
+            "title": 'Advanced — step 4',
+            "description": 'Материалы для step_4',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Градиентный бустинг и XGBoost',
+                    "link": 'https://www.youtube.com/watch?v=IvN8VOHj0_4',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'CatBoost градиентный бустинг от Яндекса',
+                    "link": 'https://www.youtube.com/watch?v=UYDwhuyWYSo',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Временные ряды лекция mlcourse.ai OpenDataScience',
+                    "link": 'https://www.youtube.com/watch?v=vZueTTJGec4',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+            ]
+        },
+        "step_5": {
+            "title": 'Advanced — step 5',
+            "description": 'Материалы для step_5',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Большой курс по NLP предобработка текста',
+                    "link": 'https://www.youtube.com/watch?v=crljNnEABKg',
+                    "platform": 'YouTube',
+                    "duration": '2 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Feature Engineering практика на датасете Титаника',
+                    "link": 'https://www.youtube.com/watch?v=tOAAwpK2O80',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+            ]
+        },
+    },
+    # ==================== ЭКСПЕРТ ====================
+    "expert": {
+        "step_1": {
+            "title": 'Expert — step 1',
+            "description": 'Материалы для step_1',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Метрики качества моделей машинного обучения',
+                    "link": 'https://www.youtube.com/watch?v=J7uWN0-_A2A',
+                    "platform": 'YouTube',
+                    "duration": '35 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Регуляризация в ML: L1 и L2',
+                    "link": 'https://www.youtube.com/watch?v=4Mjwh9iiQbM',
+                    "platform": 'YouTube',
+                    "duration": '28 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Градиентный бустинг: XGBoost, LightGBM, CatBoost',
+                    "link": 'https://www.youtube.com/watch?v=GH4jPQ-gASA',
+                    "platform": 'YouTube',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Топ вопросов Data Science собеседований: Classic ML | Часть 1',
+                    "link": 'https://www.youtube.com/watch?v=vWJP6AmkPZA',
+                    "platform": 'YouTube',
+                    "duration": '27 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Собеседование Data Scientist — Разбор реальных кейсов',
+                    "link": 'https://www.youtube.com/watch?v=yKcVqADPoXE&t=69s',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Как пройти собеседование в ML-команду',
+                    "link": 'https://www.youtube.com/watch?v=hOnZzVBUXxg',
+                    "platform": 'YouTube',
+                    "duration": '38 мин'
+                },
+            ]
+        },
+        "step_2": {
+            "title": 'Expert — step 2',
+            "description": 'Материалы для step_2',
+            "materials": [
+                {
+                    "type": 'статья',
+                    "name": 'Метрики качества в задачах машинного обучения',
+                    "link": 'https://habr.com/ru/companies/otus/articles/459785/',
+                    "platform": 'Habr',
+                    "duration": '35 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Feature Engineering: продвинутые методы',
+                    "link": 'https://habr.com/ru/companies/Voximplant/articles/446738/',
+                    "platform": 'Habr',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Как обучать модели на больших данных',
+                    "link": 'https://habr.com/ru/articles/678150/',
+                    "platform": 'Habr',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'ML-пайплайны и MLOps для начинающих',
+                    "link": 'https://habr.com/ru/companies/gazprombank/articles/750428/',
+                    "platform": 'Habr',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Вопросы и ответы для собеседования по ML',
+                    "link": 'https://habr.com/ru/articles/704128/',
+                    "platform": 'Habr',
+                    "duration": '50 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Гайд по подготовке к интервью Data Scientist',
+                    "link": 'https://habr.com/ru/articles/667282/',
+                    "platform": 'Habr',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Вопросы для собеседования ML-специалиста (Sber Devices)',
+                    "link": 'https://sberdevices.ru/career/ML/interview/',
+                    "platform": 'Sber Devices',
+                    "duration": '30 мин'
+                },
+            ]
+        },
+        "step_3": {
+            "title": 'Expert — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Scikit-learn работа с пропусками NaN',
+                    "link": 'https://www.youtube.com/watch?v=o3MuMzaVglI',
+                    "platform": 'YouTube',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'SKLearn обучение и подбор гиперпараметров',
+                    "link": 'https://www.youtube.com/watch?v=kBhYSbh0wg8',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Scikit-learn работа с пропусками NaN',
+                    "link": 'https://www.youtube.com/watch?v=o3MuMzaVglI',
+                    "platform": 'YouTube',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'SKLearn обучение и подбор гиперпараметров',
+                    "link": 'https://www.youtube.com/watch?v=kBhYSbh0wg8',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Рекомендательные системы коллаборативная фильтрация',
+                    "link": 'https://www.youtube.com/watch?v=igwNb7dBlms',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'LightFM гибридные рекомендательные системы',
+                    "link": 'https://www.youtube.com/watch?v=kcVAIV79ons',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Рекомендательные системы коллаборативная фильтрация',
+                    "link": 'https://www.youtube.com/watch?v=igwNb7dBlms',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'LightFM гибридные рекомендательные системы',
+                    "link": 'https://www.youtube.com/watch?v=kcVAIV79ons',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Рекомендательные системы коллаборативная фильтрация',
+                    "link": 'https://www.youtube.com/watch?v=igwNb7dBlms',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'LightFM гибридные рекомендательные системы',
+                    "link": 'https://www.youtube.com/watch?v=kcVAIV79ons',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+            ]
+        },
+        "step_4": {
+            "title": 'Expert — step 4',
+            "description": 'Материалы для step_4',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Градиентный бустинг и XGBoost',
+                    "link": 'https://www.youtube.com/watch?v=IvN8VOHj0_4',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'CatBoost градиентный бустинг от Яндекса',
+                    "link": 'https://www.youtube.com/watch?v=UYDwhuyWYSo',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Временные ряды лекция mlcourse.ai OpenDataScience',
+                    "link": 'https://www.youtube.com/watch?v=vZueTTJGec4',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Градиентный бустинг и XGBoost',
+                    "link": 'https://www.youtube.com/watch?v=IvN8VOHj0_4',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'CatBoost градиентный бустинг от Яндекса',
+                    "link": 'https://www.youtube.com/watch?v=UYDwhuyWYSo',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Временные ряды лекция mlcourse.ai OpenDataScience',
+                    "link": 'https://www.youtube.com/watch?v=vZueTTJGec4',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Детекция объектов с YOLO полный гайд',
+                    "link": 'https://www.youtube.com/watch?v=CjpP3Uh3eq4',
+                    "platform": 'YouTube',
+                    "duration": '2 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Обучение YOLOv8 собственный датасет',
+                    "link": 'https://www.youtube.com/watch?v=GGmnkEsgf50',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Детекция объектов с YOLO полный гайд',
+                    "link": 'https://www.youtube.com/watch?v=CjpP3Uh3eq4',
+                    "platform": 'YouTube',
+                    "duration": '2 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Обучение YOLOv8 собственный датасет',
+                    "link": 'https://www.youtube.com/watch?v=GGmnkEsgf50',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Детекция объектов с YOLO полный гайд',
+                    "link": 'https://www.youtube.com/watch?v=CjpP3Uh3eq4',
+                    "platform": 'YouTube',
+                    "duration": '2 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Обучение YOLOv8 собственный датасет',
+                    "link": 'https://www.youtube.com/watch?v=GGmnkEsgf50',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+            ]
+        },
+        "step_5": {
+            "title": 'Expert — step 5',
+            "description": 'Материалы для step_5',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Большой курс по NLP предобработка текста',
+                    "link": 'https://www.youtube.com/watch?v=crljNnEABKg',
+                    "platform": 'YouTube',
+                    "duration": '2 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Feature Engineering практика на датасете Титаника',
+                    "link": 'https://www.youtube.com/watch?v=tOAAwpK2O80',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Большой курс по NLP предобработка текста',
+                    "link": 'https://www.youtube.com/watch?v=crljNnEABKg',
+                    "platform": 'YouTube',
+                    "duration": '2 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Feature Engineering практика на датасете Титаника',
+                    "link": 'https://www.youtube.com/watch?v=tOAAwpK2O80',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'MLflow контроль ML экспериментами MLOps',
+                    "link": 'https://www.youtube.com/watch?v=7pWBHQm3R58',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Reinforcement Learning введение многорукие бандиты',
+                    "link": 'https://www.youtube.com/watch?v=Sn-xomi0N4g',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'MLflow контроль ML экспериментами MLOps',
+                    "link": 'https://www.youtube.com/watch?v=7pWBHQm3R58',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Reinforcement Learning введение многорукие бандиты',
+                    "link": 'https://www.youtube.com/watch?v=Sn-xomi0N4g',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'MLflow контроль ML экспериментами MLOps',
+                    "link": 'https://www.youtube.com/watch?v=7pWBHQm3R58',
+                    "platform": 'YouTube',
+                    "duration": '1 час'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Reinforcement Learning введение многорукие бандиты',
+                    "link": 'https://www.youtube.com/watch?v=Sn-xomi0N4g',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+            ]
+        },
+    },
+}

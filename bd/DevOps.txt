@@ -1,0 +1,222 @@
+# DevOps.txt - База данных материалов (восстановлена)
+
+DEVOPS_MATERIALS = {
+    # ==================== НОВИЧОК ====================
+    "beginner": {
+        "welcome": {
+            "title": 'Beginner — welcome',
+            "description": 'Материалы для welcome',
+            "materials": [
+                {
+                    "type": 'статья',
+                    "name": 'Основы Linux (обзор с практическим уклоном)',
+                    "link": 'https://habr.com/ru/articles/655275/',
+                    "platform": 'Habr',
+                    "duration": '60 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Основы компьютерных сетей. Тема №1. Основные сетевые термины и сетевые модели',
+                    "link": 'https://habr.com/ru/articles/307252/',
+                    "platform": 'Habr',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Git workflow для частых и независимых релизов веб-сервиса',
+                    "link": 'https://habr.com/ru/articles/1010850/',
+                    "platform": 'Habr',
+                    "duration": '25 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Основы контейнеризации (обзор Docker и Podman)',
+                    "link": 'https://habr.com/ru/articles/659049/',
+                    "platform": 'Habr',
+                    "duration": '50 мин'
+                },
+            ]
+        },
+        "step_1": {
+            "title": 'Beginner — step 1',
+            "description": 'Материалы для step_1',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Linux для начинающих / Урок #3 – Основы пользовательского интерфейса',
+                    "link": 'https://www.youtube.com/watch?v=Nn5jaVjRUgY',
+                    "platform": 'YouTube',
+                    "duration": '15 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Основы построения компьютерных сетей. Видеоурок 24. Информатика 11 класс',
+                    "link": 'https://www.youtube.com/watch?v=yzKPAfgmxkc',
+                    "platform": 'YouTube',
+                    "duration": '15 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Что такое Git flow и когда использовать?',
+                    "link": 'https://www.youtube.com/watch?v=umiT0yIsSrc',
+                    "platform": 'YouTube',
+                    "duration": '15 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Что такое Docker? Урок по контейнеризации для начинающих',
+                    "link": 'https://www.youtube.com/watch?v=d_zwFZDXGs0',
+                    "platform": 'YouTube',
+                    "duration": '25 мин'
+                },
+            ]
+        },
+    },
+    # ==================== ПРОДВИНУТЫЙ ====================
+    "advanced": {
+        "step_3": {
+            "title": 'Advanced — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Курс Ansible для DevOps Полный курс',
+                    "link": 'https://www.youtube.com/watch?v=Ck1SGolr6GI',
+                    "platform": 'YouTube',
+                    "duration": '3 часа'
+                },
+            ]
+        },
+        "step_4": {
+            "title": 'Advanced — step 4',
+            "description": 'Материалы для step_4',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Мониторинг с Prometheus и Grafana DevOps',
+                    "link": 'https://www.youtube.com/watch?v=TKDsFYYOarc',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+            ]
+        },
+    },
+    # ==================== ЭКСПЕРТ ====================
+    "expert": {
+        "step_1": {
+            "title": 'Expert — step 1',
+            "description": 'Материалы для step_1',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Основы Kubernetes: архитектура и абстракции',
+                    "link": 'https://www.youtube.com/watch?v=r-CB3QSw15k',
+                    "platform": 'YouTube',
+                    "duration": '50 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'DevOps собеседование — разбор реальных вопросов',
+                    "link": 'https://www.youtube.com/watch?v=DSvHajSRfbM',
+                    "platform": 'YouTube',
+                    "duration": '45 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Как подготовиться к DevOps интервью',
+                    "link": 'https://www.youtube.com/watch?v=8carjFjJMkc',
+                    "platform": 'YouTube',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Топ вопросов на собеседовании DevOps инженера',
+                    "link": 'https://www.youtube.com/watch?v=H07H6cDgPEg',
+                    "platform": 'YouTube',
+                    "duration": '35 мин'
+                },
+            ]
+        },
+        "step_2": {
+            "title": 'Expert — step 2',
+            "description": 'Материалы для step_2',
+            "materials": [
+                {
+                    "type": 'статья',
+                    "name": 'CI/CD: основы написания Workflow',
+                    "link": 'https://habr.com/ru/articles/888328/',
+                    "platform": 'Habr',
+                    "duration": '35 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'GitHub Actions: полный обзор возможностей',
+                    "link": 'https://habr.com/ru/companies/otus/articles/1022152/',
+                    "platform": 'Habr',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Вопросы на собеседовании DevOps',
+                    "link": 'https://easyoffer.ru/devops/questions',
+                    "platform": 'EasyOffer',
+                    "duration": '40 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Вопросы для собеседования DevOps-инженера (Sber Devices)',
+                    "link": 'https://sberdevices.ru/career/DevOps/interview/',
+                    "platform": 'Sber Devices',
+                    "duration": '30 мин'
+                },
+                {
+                    "type": 'статья',
+                    "name": 'Комментарии к статье по DevOps собеседованию',
+                    "link": 'https://habr.com/ru/companies/rebrainme/articles/527782/comments/',
+                    "platform": 'Habr',
+                    "duration": '25 мин'
+                },
+            ]
+        },
+        "step_3": {
+            "title": 'Expert — step 3',
+            "description": 'Материалы для step_3',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Курс Ansible для DevOps Полный курс',
+                    "link": 'https://www.youtube.com/watch?v=Ck1SGolr6GI',
+                    "platform": 'YouTube',
+                    "duration": '3 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Курс Ansible для DevOps Полный курс',
+                    "link": 'https://www.youtube.com/watch?v=Ck1SGolr6GI',
+                    "platform": 'YouTube',
+                    "duration": '3 часа'
+                },
+            ]
+        },
+        "step_4": {
+            "title": 'Expert — step 4',
+            "description": 'Материалы для step_4',
+            "materials": [
+                {
+                    "type": 'видео',
+                    "name": 'Мониторинг с Prometheus и Grafana DevOps',
+                    "link": 'https://www.youtube.com/watch?v=TKDsFYYOarc',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+                {
+                    "type": 'видео',
+                    "name": 'Мониторинг с Prometheus и Grafana DevOps',
+                    "link": 'https://www.youtube.com/watch?v=TKDsFYYOarc',
+                    "platform": 'YouTube',
+                    "duration": '1.5 часа'
+                },
+            ]
+        },
+    },
+}
