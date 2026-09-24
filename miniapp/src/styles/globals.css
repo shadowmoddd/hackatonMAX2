@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
-
+@import "../pages/responsive-pages.css";
 :root {
   --bg-deep: #070812;
   --bg-base: #0b0d18;
